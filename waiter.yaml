@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: Wait for one minute
+    pause:
+      minutes: 1
+...
